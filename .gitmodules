@@ -1,3 +1,4 @@
 [submodule "ouster-sdk"]
 	path = ouster-sdk
-	url = https://github.com/ouster-lidar/ouster_example.git
+	url = https://github.com/kevin90045/ouster_example.git
+	branch = kinetic

@@ -6,6 +6,9 @@ include(DefaultBuildType)
 # ==== Project Name ====
 project(ouster_ros)
 
+# ==== C++ Standard ====
+set(CMAKE_CXX_STANDARD 17)
+
 # ==== Requirements ====
 find_package(Eigen3 REQUIRED)
 find_package(PCL REQUIRED COMPONENTS common)
